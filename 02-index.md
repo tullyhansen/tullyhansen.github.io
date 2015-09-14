@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: page
 title: Home
+permalink: index.html
 ---
-UNDER CONSTRUCTION
+<h1>UNDER CONSTRUCTION</h1>
 
 <br />
 <br />
