@@ -93,6 +93,6 @@ var config1 = {
   "showImages": false,
   "showRetweet": false,
   "showInteraction": false,
-  "showTime": false
+  "showTime": true
 };
 twitterFetcher.fetch(config1);
