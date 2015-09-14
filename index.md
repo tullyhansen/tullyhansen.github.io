@@ -1,11 +1,10 @@
 ---
-layout: default
-title: Home
+layout: post
+title: Writer. Computer. Lover.
 permalink: index.html
 exclude: true
 ---
-# UNDER CONSTRUCTION
 
-Lorem ipsum, motherlover.
+Wait, I may have punctuated that poorly.
 
 <img src="img/MoMotorCity8021construct.gif">
