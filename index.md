@@ -2,6 +2,7 @@
 layout: page
 title: Home
 permalink: index.html
+exclude: true
 ---
 <h1>UNDER CONSTRUCTION</h1>
 
