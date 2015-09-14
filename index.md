@@ -5,6 +5,6 @@ permalink: index.html
 exclude: true
 ---
 
-Wait, I may have punctuated that poorly.
+Wait, I punctuated that poorly.
 
 <img src="img/MoMotorCity8021construct.gif">
