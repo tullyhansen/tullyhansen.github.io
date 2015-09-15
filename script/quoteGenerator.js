@@ -5,10 +5,8 @@
 *********************************************************************/
 
 var quote = new Array()
-quote[0] = 'HTML for quote number 1'
-quote[1] = 'HTML for quote number 2'
-quote[2] = 'HTML for quote number 3'
-quote[3] = 'HTML for quote number 4'
+quote[0] = 'Updating my homepage since 1998.'
+quote[1] = '#botALLY to the #bone.'
 
 var randomquote = Math.floor(Math.random()*(quote.length));
 function printquote(){
