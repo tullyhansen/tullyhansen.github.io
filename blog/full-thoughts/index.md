@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Blog
-permalink: /blog/
+title: Full Thoughts
+permalink: /blog/full-thoughts/
+exclude: true
 
 ---
 
