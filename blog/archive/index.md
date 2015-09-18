@@ -13,9 +13,9 @@ title: All thoughts by time
       {% capture month %}{{ post.date | date: '%B %Y' }}{% endcapture %}
       {% capture nmonth %}{{ post.next.date | date: '%B %Y' }}{% endcapture %}
       {% if month != nmonth %}
-<h3>{{ post.date | date: '%B %Y' }}</h3><p>
+</p><h3>{{ post.date | date: '%B %Y' }}</h3><p>
       {% endif %}
 	{% unless month != nmonth %} • {% endunless %}
     {% endunless %}
 {% if post.categories contains 'full-thoughts' %}<strong>{% endif %}<a href="{{ post.url }}">{{ post.title }}</a>{% if post.categories contains 'full-thoughts' %}</strong>{% endif %}
-{% endfor %}</p>
+{% endfor %}

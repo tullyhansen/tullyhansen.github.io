@@ -12,7 +12,7 @@ title: All thoughts by tag
 {% assign sortedtags = tags | split:' ' | sort %}
 
 <p><a href="/full-thoughts/">Full thoughts</a> in <strong>bold</strong>. Browse <a href="/blog/archive/">by time</a> instead.</p>
-<p>There {% if sortedtags.size != 1 %}are{% else %}is{% endif %} currently {{ sortedtags | size }} tag{% if sortedtags.size != 1 %}s{% endif %} in use: {% for tag in sortedtags %}{% if forloop.first != true %}{% if forloop.last == true %} and {% else %}, {% endif %}{% endif %}<a href="#{{ tag }}">{{ tag }}</a>{% endfor %}.</p>
+<p>There {% if sortedtags.size != 1 %}are{% else %}is{% endif %} currently {{ sortedtags | size }} tag{% if sortedtags.size != 1 %}s{% endif %} in use{% if sortedtags.size != 0 %}: {% for tag in sortedtags %}{% if forloop.first != true %}{% if forloop.last == true %} and {% else %}, {% endif %}{% endif %}<a href="#{{ tag }}">{{ tag }}</a>{% endfor %}{% endif %}.</p>
 
 {% for tag in sortedtags %}
 <h3 id="{{ tag }}">{{ tag }} ({{ site.tags[tag] | size }})</h3>
