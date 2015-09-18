@@ -9,3 +9,23 @@ twitter_username: tullyhansen
 
 # Build settings
 markdown: kramdown
+
+permalink:  none
+
+gems:
+  - jekyll-redirect-from # see https://help.github.com/articles/redirects-on-github-pages/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "page"
+      exclude: true

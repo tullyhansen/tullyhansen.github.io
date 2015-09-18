@@ -1,36 +1,28 @@
 ---
-layout: page
-title: Blog
+title:		Blog
+exclude:	false
+weight:		4
+# redirect_from: "/foo/"
 ---
 
 [Half-thoughts][] posted daily (for consistency); [full thoughts][] published weekly (for craft).
 
-### Full Thoughts
+Browse all thoughts [by tag][] or [by time][].
 
-{% for post in site.categories.full-thoughts %}
-  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
-{% endfor %}
+## Latest Full Thoughts
 
-### Full Thoughts
-
-{% for post in site.categories.full-thoughts %}
-#### [ {{ post.title }} ]({{ post.url }})
-*{{ post.date | date_to_string }}*
-  {{ post.excerpt }}
+{% for post in site.categories.full-thoughts limit:3 %}
+<p>{% include post-title-and-date.html %}</p>
+<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
   
 {% endfor %}
 
-[More full thoughts…][]
+## Recent Half-Thoughts
 
-### Recent Half-Thoughts
+<p>{% for post in site.categories.half-thoughts limit:7 %}
+<a href="{{ post.url }}">{{ post.title }}</a>{% if forloop.last != true %} • {% endif %}{% endfor %}</p>
 
-{% for post in site.categories.half-thoughts limit 7 %}
-  * [ {{ post.title }} ]({{ post.url }})
-{% endfor %}
-
-[More half-thoughts…][]
-
-[Half-thoughts]: http://www.html.com "test"
-[full thoughts]: www.html.com "test2"
-[More full thoughts]: www.html.com "test2"
-[More half-thoughts…]:  "test2"
+[Half-thoughts]: /half-thoughts/ "Half"
+[full thoughts]: /full-thoughts/ "Full"
+[by tag]: /blog/tags/ "Browse by tag"
+[by time]: /blog/archive/ "Browse by time"
