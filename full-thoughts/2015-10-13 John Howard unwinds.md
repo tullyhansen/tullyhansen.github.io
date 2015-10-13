@@ -1,3 +1,6 @@
+---
+title: John Howard unwinds
+---
 _Apropos the John Howard Walk of Wonder, some short fiction of mine (posted un-reread) from 2007._
 
 With three weeks to go until the election, John Howard made the mistake of allowing himself to unwind in public.
