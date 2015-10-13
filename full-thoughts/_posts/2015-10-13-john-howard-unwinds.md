@@ -1,5 +1,6 @@
 ---
 title: John Howard unwinds
+tags: auspol
 ---
 _Apropos the John Howard Walk of Wonder, some short fiction of mine (posted un-reread) from 2007._
 
