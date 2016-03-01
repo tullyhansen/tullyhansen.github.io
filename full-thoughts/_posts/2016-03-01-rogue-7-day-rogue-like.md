@@ -1,6 +1,6 @@
 ---
 title: Rogue 7-Day Rogue Like
-tags: rpgmaker gamedev
+tags: rpgmaker gamedev 7DRL
 ---
 I've been banging my head these last few <del>days</del> weeks against a few of small pieces of writing. Like, tiny – three little essaylets, ostensibly on my [special subject](https://wordnik.com/words/twitterbot) and demanding little in the way of research. As is par for the course, the only way I could getting them into anything like a state resembling complete was to stay up until 5:00 in the morning on the day they were due. Even then, it took missing a day of work just to get two-thirds the way to where I was supposed to be.
 
